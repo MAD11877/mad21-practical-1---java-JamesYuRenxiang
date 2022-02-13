@@ -68,8 +68,6 @@ public class Question5
                     m=b[i];   
         
       }
-            
-      System.out.println("Mode: "); 
 
       for(int i=0;i<number;i++) 
       {
