@@ -24,18 +24,15 @@ public class Question5
      *     > 3
      *     2
      * Hint: Use a loop to get input. Use another 2 loops to find the mode
-     */
-    System.out.print("Enter a number: "); 
+     */ 
     Scanner in = new Scanner(System.in);
     int number = in.nextInt();
     int c = number;
     int [] a=new int[number];
     int [] b=new int[number];
-    System.out.println("Enter "+ number +" numbers");
     double sum = 0;
     for(int i = 0 ; i < number ; i++ ) 
     {
-      System.out.print("Enter number: ");
       a[i]=in.nextInt();
       
     }
